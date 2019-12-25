@@ -2,7 +2,7 @@ $(document).ready(function(){
     document.querySelector('#login').style.display='none';
     document.querySelector('#suggestion').style.display='none';
     document.querySelector('#table').style.display='none';
-    document.cookie="from swaii=H@ckinggg is Happpyyy"
+    document.cookie="from koreanF!sH=BETWEEN YES OR NOT"
 });
 
 var suggestion=[];
@@ -12,7 +12,7 @@ function addSuggest() {
     var book = $('#book').val();
     suggestion.push(book);
     console.log(suggestion)
-    alert('送給管理員咯XDDD')
+    alert('管理員收到咯XDDD')
 }
 
 function login() {
