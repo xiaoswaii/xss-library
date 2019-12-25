@@ -2,7 +2,7 @@ $(document).ready(function(){
     document.querySelector('#login').style.display='none';
     document.querySelector('#suggestion').style.display='none';
     document.querySelector('#table').style.display='none';
-    document.cookie="from swaii=H333kinggg is Happpyyy"
+    document.cookie="from swaii=H@ckinggg is Happpyyy"
 });
 
 var suggestion=[];
