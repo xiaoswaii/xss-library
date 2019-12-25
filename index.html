@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="jsut some d333MMooo">
+  <meta name="author" content="xiaoswa!!!!!!">
+
+  <title>小帥圖書館</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/heroic-features.css" rel="stylesheet">
+  <link href="css/login.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="">小帥圖書館</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <span class="nav-link" href="#" id="home">主頁
+            </span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link" href="#" id="admin">管理者</span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link" href="#" id="push">推薦書籍</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="amazing">
+
+  <!-- Page Content -->
+    <div class="container" id="main-page">
+
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4">
+      <h1 class="display-3">Welcom33 Tooo 小帥圖書館</h1>
+      <p class="lead">剛成立，沒什麼館藏，來推薦小帥買一點你想看的館藏！！！</p>
+    </header>
+
+    <!-- Page Features -->
+    <div class="row text-center">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="./img/wheel.jpeg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">愛情摩天輪</h4>
+            <p class="card-text">關於愛情和摩天輪的故事書。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="./img/stuck.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">塞子</h4>
+            <p class="card-text">塞子一輩子的故事書。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="./img/chess.jpg" alt="" height="191">
+          <div class="card-body">
+            <h4 class="card-title">棋子</h4>
+            <p class="card-text">一部棋子與塞子相遇的影視資料。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="./img/car.jpeg" alt="" height="191">
+          <div class="card-body">
+            <h4 class="card-title">風力發發電車</h4>
+            <p class="card-text">關於風力發電車的百科全書。</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <div id="suggestion" class="mx-5">
+      <div class="form-group">
+        <label for="what">你想推薦的書</label>
+        <input type="text" class="form-control" id="book" placeholder="我是喜歡看金瓶梅啦">
+        <small id="just_some_shiTTTT" class="form-text text-muted">小帥有空一定好好看你的推薦</small>
+      </div>
+      <button onclick="addSuggest()" class="btn btn-primary">傳給小帥！</button>
+    </div>
+
+    <div class="login-form" id="login">
+    <div>
+      <h2 class="text-center">Log in</h2>       
+      <div class="form-group">
+          <input type="text" class="form-control" id="user" placeholder="Username" required="required">
+      </div>
+      <div class="form-group">
+          <input type="password" class="form-control" id="pass" placeholder="Password" required="required">
+      </div>
+      <div class="form-group">
+          <button class="btn btn-primary btn-block" onclick="login()">登入</button>
+      </div>    
+    </div>
+    </div>
+
+    <table class="table my-4" id="table">
+      <thead>
+        <tr>
+          <th scope="col">推薦書籍</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; XSS 圖書館 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/index.js"></script>
+
+</body>
+
+</html>
