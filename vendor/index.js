@@ -2,7 +2,7 @@ $(document).ready(function(){
     document.querySelector('#login').style.display='none';
     document.querySelector('#suggestion').style.display='none';
     document.querySelector('#table').style.display='none';
-    document.cookie="from koreanF!sH=BETWEEN YES OR NO"
+    document.cookie="from_koreanF!sH=BETWEEN_YES_OR_NO"
 });
 
 var suggestion=[];
